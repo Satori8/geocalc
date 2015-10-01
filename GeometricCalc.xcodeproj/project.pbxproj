@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8736941BBDFD8500B8B562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8736931BBDFD8500B8B562 /* AppDelegate.swift */; };
+		1F8736961BBDFD8500B8B562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8736951BBDFD8500B8B562 /* ViewController.swift */; };
+		1F8736991BBDFD8500B8B562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8736971BBDFD8500B8B562 /* Main.storyboard */; };
+		1F87369B1BBDFD8500B8B562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F87369A1BBDFD8500B8B562 /* Assets.xcassets */; };
+		1F87369E1BBDFD8500B8B562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F87369C1BBDFD8500B8B562 /* LaunchScreen.storyboard */; };
+		1F8736A91BBDFD8500B8B562 /* GeometricCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8736A81BBDFD8500B8B562 /* GeometricCalcTests.swift */; };
+		1F8736B41BBDFD8500B8B562 /* GeometricCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8736B31BBDFD8500B8B562 /* GeometricCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F8736A51BBDFD8500B8B562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8736881BBDFD8500B8B562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F87368F1BBDFD8500B8B562;
+			remoteInfo = GeometricCalc;
+		};
+		1F8736B01BBDFD8500B8B562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8736881BBDFD8500B8B562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F87368F1BBDFD8500B8B562;
+			remoteInfo = GeometricCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F8736901BBDFD8500B8B562 /* GeometricCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8736931BBDFD8500B8B562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F8736951BBDFD8500B8B562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F8736981BBDFD8500B8B562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F87369A1BBDFD8500B8B562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F87369D1BBDFD8500B8B562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F87369F1BBDFD8500B8B562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8736A41BBDFD8500B8B562 /* GeometricCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometricCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8736A81BBDFD8500B8B562 /* GeometricCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricCalcTests.swift; sourceTree = "<group>"; };
+		1F8736AA1BBDFD8500B8B562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8736AF1BBDFD8500B8B562 /* GeometricCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometricCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8736B31BBDFD8500B8B562 /* GeometricCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricCalcUITests.swift; sourceTree = "<group>"; };
+		1F8736B51BBDFD8500B8B562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F87368D1BBDFD8500B8B562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8736A11BBDFD8500B8B562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8736AC1BBDFD8500B8B562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8736871BBDFD8500B8B562 = {
+			isa = PBXGroup;
+			children = (
+				1F8736921BBDFD8500B8B562 /* GeometricCalc */,
+				1F8736A71BBDFD8500B8B562 /* GeometricCalcTests */,
+				1F8736B21BBDFD8500B8B562 /* GeometricCalcUITests */,
+				1F8736911BBDFD8500B8B562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F8736911BBDFD8500B8B562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F8736901BBDFD8500B8B562 /* GeometricCalc.app */,
+				1F8736A41BBDFD8500B8B562 /* GeometricCalcTests.xctest */,
+				1F8736AF1BBDFD8500B8B562 /* GeometricCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F8736921BBDFD8500B8B562 /* GeometricCalc */ = {
+			isa = PBXGroup;
+			children = (
+				1F8736931BBDFD8500B8B562 /* AppDelegate.swift */,
+				1F8736951BBDFD8500B8B562 /* ViewController.swift */,
+				1F8736971BBDFD8500B8B562 /* Main.storyboard */,
+				1F87369A1BBDFD8500B8B562 /* Assets.xcassets */,
+				1F87369C1BBDFD8500B8B562 /* LaunchScreen.storyboard */,
+				1F87369F1BBDFD8500B8B562 /* Info.plist */,
+			);
+			path = GeometricCalc;
+			sourceTree = "<group>";
+		};
+		1F8736A71BBDFD8500B8B562 /* GeometricCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F8736A81BBDFD8500B8B562 /* GeometricCalcTests.swift */,
+				1F8736AA1BBDFD8500B8B562 /* Info.plist */,
+			);
+			path = GeometricCalcTests;
+			sourceTree = "<group>";
+		};
+		1F8736B21BBDFD8500B8B562 /* GeometricCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F8736B31BBDFD8500B8B562 /* GeometricCalcUITests.swift */,
+				1F8736B51BBDFD8500B8B562 /* Info.plist */,
+			);
+			path = GeometricCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F87368F1BBDFD8500B8B562 /* GeometricCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8736B81BBDFD8500B8B562 /* Build configuration list for PBXNativeTarget "GeometricCalc" */;
+			buildPhases = (
+				1F87368C1BBDFD8500B8B562 /* Sources */,
+				1F87368D1BBDFD8500B8B562 /* Frameworks */,
+				1F87368E1BBDFD8500B8B562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometricCalc;
+			productName = GeometricCalc;
+			productReference = 1F8736901BBDFD8500B8B562 /* GeometricCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F8736A31BBDFD8500B8B562 /* GeometricCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8736BB1BBDFD8500B8B562 /* Build configuration list for PBXNativeTarget "GeometricCalcTests" */;
+			buildPhases = (
+				1F8736A01BBDFD8500B8B562 /* Sources */,
+				1F8736A11BBDFD8500B8B562 /* Frameworks */,
+				1F8736A21BBDFD8500B8B562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8736A61BBDFD8500B8B562 /* PBXTargetDependency */,
+			);
+			name = GeometricCalcTests;
+			productName = GeometricCalcTests;
+			productReference = 1F8736A41BBDFD8500B8B562 /* GeometricCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F8736AE1BBDFD8500B8B562 /* GeometricCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8736BE1BBDFD8500B8B562 /* Build configuration list for PBXNativeTarget "GeometricCalcUITests" */;
+			buildPhases = (
+				1F8736AB1BBDFD8500B8B562 /* Sources */,
+				1F8736AC1BBDFD8500B8B562 /* Frameworks */,
+				1F8736AD1BBDFD8500B8B562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F8736B11BBDFD8500B8B562 /* PBXTargetDependency */,
+			);
+			name = GeometricCalcUITests;
+			productName = GeometricCalcUITests;
+			productReference = 1F8736AF1BBDFD8500B8B562 /* GeometricCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F8736881BBDFD8500B8B562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Satori;
+				TargetAttributes = {
+					1F87368F1BBDFD8500B8B562 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K9NPNLQBU;
+					};
+					1F8736A31BBDFD8500B8B562 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K9NPNLQBU;
+						TestTargetID = 1F87368F1BBDFD8500B8B562;
+					};
+					1F8736AE1BBDFD8500B8B562 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K9NPNLQBU;
+						TestTargetID = 1F87368F1BBDFD8500B8B562;
+					};
+				};
+			};
+			buildConfigurationList = 1F87368B1BBDFD8500B8B562 /* Build configuration list for PBXProject "GeometricCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F8736871BBDFD8500B8B562;
+			productRefGroup = 1F8736911BBDFD8500B8B562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F87368F1BBDFD8500B8B562 /* GeometricCalc */,
+				1F8736A31BBDFD8500B8B562 /* GeometricCalcTests */,
+				1F8736AE1BBDFD8500B8B562 /* GeometricCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F87368E1BBDFD8500B8B562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F87369E1BBDFD8500B8B562 /* LaunchScreen.storyboard in Resources */,
+				1F87369B1BBDFD8500B8B562 /* Assets.xcassets in Resources */,
+				1F8736991BBDFD8500B8B562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8736A21BBDFD8500B8B562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8736AD1BBDFD8500B8B562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F87368C1BBDFD8500B8B562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8736961BBDFD8500B8B562 /* ViewController.swift in Sources */,
+				1F8736941BBDFD8500B8B562 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8736A01BBDFD8500B8B562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8736A91BBDFD8500B8B562 /* GeometricCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8736AB1BBDFD8500B8B562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8736B41BBDFD8500B8B562 /* GeometricCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F8736A61BBDFD8500B8B562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F87368F1BBDFD8500B8B562 /* GeometricCalc */;
+			targetProxy = 1F8736A51BBDFD8500B8B562 /* PBXContainerItemProxy */;
+		};
+		1F8736B11BBDFD8500B8B562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F87368F1BBDFD8500B8B562 /* GeometricCalc */;
+			targetProxy = 1F8736B01BBDFD8500B8B562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F8736971BBDFD8500B8B562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8736981BBDFD8500B8B562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F87369C1BBDFD8500B8B562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F87369D1BBDFD8500B8B562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F8736B61BBDFD8500B8B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F8736B71BBDFD8500B8B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F8736B91BBDFD8500B8B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeometricCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Satori.GeometricCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F8736BA1BBDFD8500B8B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeometricCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Satori.GeometricCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F8736BC1BBDFD8500B8B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeometricCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Satori.GeometricCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometricCalc.app/GeometricCalc";
+			};
+			name = Debug;
+		};
+		1F8736BD1BBDFD8500B8B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeometricCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Satori.GeometricCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometricCalc.app/GeometricCalc";
+			};
+			name = Release;
+		};
+		1F8736BF1BBDFD8500B8B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeometricCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Satori.GeometricCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeometricCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F8736C01BBDFD8500B8B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeometricCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Satori.GeometricCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeometricCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F87368B1BBDFD8500B8B562 /* Build configuration list for PBXProject "GeometricCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8736B61BBDFD8500B8B562 /* Debug */,
+				1F8736B71BBDFD8500B8B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8736B81BBDFD8500B8B562 /* Build configuration list for PBXNativeTarget "GeometricCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8736B91BBDFD8500B8B562 /* Debug */,
+				1F8736BA1BBDFD8500B8B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F8736BB1BBDFD8500B8B562 /* Build configuration list for PBXNativeTarget "GeometricCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8736BC1BBDFD8500B8B562 /* Debug */,
+				1F8736BD1BBDFD8500B8B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F8736BE1BBDFD8500B8B562 /* Build configuration list for PBXNativeTarget "GeometricCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8736BF1BBDFD8500B8B562 /* Debug */,
+				1F8736C01BBDFD8500B8B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F8736881BBDFD8500B8B562 /* Project object */;
+}
